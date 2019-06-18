@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="">Angular WCS 08</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="developer" routerLinkActive="active">Developer</a>
+    </div>
+  </div>
+</nav>
+
+<h1 class="display-4 my-3">Critères de validation</h1>
+<ul>
+  <li>La structure du projet est respectée.</li>
+  <li>Les modèles de données Developer et Skill sont respectés.</li>
+  <li>Les noms des composants et leurs propriétés sont respectés.</li>
+  <li>Toutes les variables sont correctement typées.</li>
+  <li>Les compétences sont transmises de 'app-developer' vers 'app-skill' en utilisant @Input.</li>
+</ul>
+
+<router-outlet></router-outlet>

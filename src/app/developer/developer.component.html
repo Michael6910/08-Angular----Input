@@ -1,0 +1,12 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4 mb-3">{{developer.firstName}} {{developer.lastName}}</h1>
+      <p>Age: {{developer.age}}</p>
+      <p>Sexe: {{developer.sexe}}</p>
+      <p>{{developer.bio}}</p>
+    </div>
+  </div>
+
+<div *ngFor="let skill of developer.skills">
+    <app-skill [skill]="skill"></app-skill>
+</div>
